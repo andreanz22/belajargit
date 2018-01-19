@@ -11,7 +11,7 @@ var chr3 = Math.ceil(Math.random() * 10)+ '';
 var chr4 = Math.ceil(Math.random() * 10)+ '';
 var chr5 = Math.ceil(Math.random() * 10)+ '';
 var chr6 = Math.ceil(Math.random() * 10)+ '';
-var chr7 = Math.ceil(Math.random() * 10)+ '';
+var chr7 = Math.ceil(Math.random() * 110)+ '';
  
 var captchaCode = chr1 + ' ' + chr2 + ' ' + chr3 + ' ' + chr4 + ' ' + chr5 + ' '+ chr6 + ' ' + chr7;
 document.getElementById("txtCaptcha").value = captchaCode
